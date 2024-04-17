@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  height: 378px;
+  display: flex;
+}
+.contact {
+  padding: 50px 100px;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  background-color: #515603;
+  color: white;
+  text-align: justify;
+}
+.about {
+  padding: 50px 100px;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  background-color: #722300;
+  color: white;
+  text-align: justify;
+}
+.contactText {
+  width: 100%;
+  height: 30%;
+  font-size: 64px;
+  display: flex;
+  align-items: center;
+}
+.lorem {
+  width: 100%;
+  height: 35%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.mail {
+  width: 100%;
+  height: 35%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.loremText {
+  width: 100%;
+  height: 35%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width:1060px) {
+    .container {
+        height: 756px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .contact {
+        width: 70%;
+        height: 50%;
+      }
+      .about {
+        width: 70%;
+        height: 50%;
+      }
+}
+@media screen and (max-width:760px) {
+      .contact {
+        width: 100%;
+      }
+      .about {
+        width: 100%;
+      }
+}
+@media screen and (max-width:550px) {
+    .contact {
+      padding: 10px 20px;
+    }
+    .about {
+      padding: 10px 20px;
+    }
+}
+@media screen and (max-width:370px) {
+    .contactText {
+        font-size: 40px;
+      }
+}
+
